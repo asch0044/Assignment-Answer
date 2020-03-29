@@ -11,3 +11,5 @@ ls -l ~/ebooks
 cd
 wc hamlet.txt
 (output: 5307  32252 184406 hamlet.txt)
+head -n 3447 hamlet.txt | tail -n 1
+(output:Is thought-sicke at the act)
