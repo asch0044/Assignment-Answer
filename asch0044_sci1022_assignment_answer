@@ -1,11 +1,13 @@
 Assignment Answer
 
 curl http://www.gutenberg.org/cache/epub/2265/pg2265.txt -o hamlet.txt
-(output: a large table that I cannot copy and paste)
+(output:a large table that I cannot copy and paste)
 mkdir ~/ebooks
 mv hamlet.txt ~/ebooks
 cd /usr/lib 
-ls -l ~/ebooks ..
-(output:/home/asch0044/ebooks:
-total 184
+ls -l ~/ebooks
+(output:total 184
 -rw-rw-r--+ 1 asch0044 Domain Users 184406 Mar 30 01:53 hamlet.txt)
+cd
+wc hamlet.txt
+(output: 5307  32252 184406 hamlet.txt)
