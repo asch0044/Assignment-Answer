@@ -1,3 +1,5 @@
 Assignment Answer
 
 curl http://www.gutenberg.org/cache/epub/2265/pg2265.txt -o hamlet.txt
+cd /usr/lib 
+
