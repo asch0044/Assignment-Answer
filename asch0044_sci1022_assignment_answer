@@ -13,3 +13,5 @@ wc hamlet.txt
 (output: 5307  32252 184406 hamlet.txt)
 head -n 3447 hamlet.txt | tail -n 1
 (output:Is thought-sicke at the act)
+grep -i hamlet hamlet.txt | wc
+(output: 109     702    4278)
