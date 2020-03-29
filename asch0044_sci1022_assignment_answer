@@ -1,5 +1,8 @@
 Assignment Answer
 
 curl http://www.gutenberg.org/cache/epub/2265/pg2265.txt -o hamlet.txt
+(output is a large table that I cannot copy and paste)
+mkdir ~/ebooks
+mv hamlet.txt ~/ebooks
 cd /usr/lib 
 
